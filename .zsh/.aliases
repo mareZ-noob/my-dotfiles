@@ -25,29 +25,38 @@ alias tdelete="tmux kill-session -t"
 alias tlist="tmux ls"
 
 # Shell command
-alias nvi="nvim"
+alias vi="nvim"
 alias cls="clear"
 alias grep='grep --color=auto '
 
-# Virtualenv
-alias venv="source ~/Code/.venv/bin/activate"
-
 # APT
-alias agu="sudo apt-get update"
-alias agi="sudo apt-get install"
+alias sagu="sudo apt-get update"
+alias sagi="sudo apt-get install"
 
 # Week number
 alias week='date +%V'
 
 # Trasnlate
-alias v="trans -b :vi"
-alias e="trans -b :en"
+alias vte="trans -b :vi"
+alias etv="trans -b :en"
+alias vtj="trans -b :ja"
+alias etj="trans -b :ja"
 
 # Internet
 alias myip="curl https://ipinfo.io/json"
 alias speed="curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python3 -"
 
+# Command details
+alias how="cht.sh"
+alias ask="tldr"
+
+# Override command
+alias cd="z"
+alias ls="eza --icons=always"
+
 # Other
 alias p10k="p10k configure"
 alias load="source ~/.zshrc"
 alias zshrc="nvim ~/.zshrc"
+alias jmeter="cd ~/jmeter/bin && ./jmeter"
+
