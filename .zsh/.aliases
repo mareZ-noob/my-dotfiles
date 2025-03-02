@@ -37,8 +37,8 @@ alias sagi="sudo apt-get install"
 alias week='date +%V'
 
 # Trasnlate
-alias vte="trans -b :vi"
-alias etv="trans -b :en"
+alias etv="trans -b :vi"
+alias vte="trans -b :en"
 alias vtj="trans -b :ja"
 alias etj="trans -b :ja"
 
@@ -59,4 +59,4 @@ alias p10k="p10k configure"
 alias load="source ~/.zshrc"
 alias zshrc="nvim ~/.zshrc"
 alias jmeter="cd ~/jmeter/bin && ./jmeter"
-
+alias set-background="gsettings set org.gnome.desktop.background picture-uri"

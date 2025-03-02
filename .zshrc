@@ -187,3 +187,4 @@ export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 eval "$(zoxide init zsh)"
+
